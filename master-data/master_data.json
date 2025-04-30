@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "HRMS (Telengan)",
+      "description": "A human resource management system developed for government departments to manage employee data, leave, payroll, and reporting.",
+      "images": [
+        "images/hrms1.png",
+        "images/hrms2.png"
+      ],
+      "frontend_technology": ["Angular", "Bootstrap"],
+      "backend_technology": ["Laravel", "MySQL"],
+      "other_technology": ["REST API", "JWT", "Docker"],
+      "number_of_clients": 5,
+      "deployment": {
+        "environment": "Linux Server",
+        "tools": ["Apache", "CI/CD", "Git"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "E-commerce CMS Portal",
+      "description": "A customizable content management system for managing products, orders, and payments.",
+      "images": [
+        "images/cms1.png",
+        "images/cms2.png"
+      ],
+      "frontend_technology": ["React", "Tailwind CSS"],
+      "backend_technology": ["Node.js", "MongoDB"],
+      "other_technology": ["Stripe Integration", "Firebase"],
+      "number_of_clients": 3,
+      "deployment": {
+        "environment": "AWS",
+        "tools": ["Nginx", "Docker", "PM2"]
+      }
+    }
+  ]
+  
