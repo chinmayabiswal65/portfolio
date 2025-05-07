@@ -1,21 +1,38 @@
 [
     {
       "id": 1,
-      "name": "HRMS (Telengan)",
-      "description": "A human resource management system developed for government departments to manage employee data, leave, payroll, and reporting.",
+      "name": "HRMS - Human Resource Management System for Government Employees",
+      "short_description": "A human resource management system developed for government departments to manage employee data, leave, payroll, and reporting.",
       "images": [
-        "images/hrms1.png",
-        "images/hrms2.png"
+        "hrmms.png"
       ],
-      "frontend_technology": ["Angular", "Bootstrap"],
-      "backend_technology": ["Laravel", "MySQL"],
-      "other_technology": ["REST API", "JWT", "Docker"],
-      "number_of_clients": 5,
+      "client" : "Telenagna Govt",
+    "description" : [
+      "Centralized platform for managing all employee-related records within government departments.",
+      "Module for adding and managing employee profiles including personal, contact, designation, and joining details.",
+      "Family details section to maintain spouse, children, and dependent records for benefits and service-related documentation.",
+      "Nominee management for pension, insurance, and service-related claims.",
+      "Leave management module where employees can apply for various leave types (casual, earned, medical), view balances, and track status.",
+      "HR/Admin approval workflows for leave applications with notifications to concerned officers.",
+      "Resignation module for employees to submit resignation requests with reasons, exit date, and withdrawal options before approval.",
+      "Role-based login system for Admin, HR, and Employees with different privileges and dashboards.",
+      "Audit trail and history log for tracking changes in employee data and leave transactions.",
+      "Responsive and user-friendly dashboard showing employee attendance, recent leave applications, upcoming events, and alerts.",
+      "Security features with  authentication, middleware protections, and encrypted data storage.",
+      "Option to generate reports like leave summary, department-wise employee count, resignation trends, etc.",
+      "Fully integrated with email notifications for important actions like leave approval/rejection and resignation status.",
+      "Expandable system architecture allowing future modules like payroll, promotion history, ACR/annual review, etc."
+    ],
+      "frontend_technology": "Angular,Bootstrap, HTML ",
+      "backend_technology": "Laravel ,Postgres Sql",
+      "other_technology": "REST API ,JWT ,Docker",
+      "number_of_clients": "10lakh",
       "deployment": {
         "environment": "Linux Server",
         "tools": ["Apache", "CI/CD", "Git"]
       }
     },
+
     {
       "id": 2,
       "name": "E-commerce CMS Portal",
