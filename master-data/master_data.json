@@ -1,13 +1,11 @@
 [
-    {
-      "id": 1,
-      "name": "HRMS - Human Resource Management System for Government Employees",
-      "short_description": "A human resource management system developed for government departments to manage employee data, leave, payroll, and reporting.",
-      "images": [
-        "hrmms.png"
-      ],
-      "client" : "Telenagna Govt",
-    "description" : [
+  {
+    "id": 1,
+    "name": "HRMS - Human Resource Management System for Government Employees",
+    "short_description": "A human resource management system developed for government departments to manage employee data, leave, payroll, and reporting.",
+    "images": ["hrmms.png"],
+    "client": "Telangana Govt",
+    "description": [
       "Centralized platform for managing all employee-related records within government departments.",
       "Module for adding and managing employee profiles including personal, contact, designation, and joining details.",
       "Family details section to maintain spouse, children, and dependent records for benefits and service-related documentation.",
@@ -18,37 +16,141 @@
       "Role-based login system for Admin, HR, and Employees with different privileges and dashboards.",
       "Audit trail and history log for tracking changes in employee data and leave transactions.",
       "Responsive and user-friendly dashboard showing employee attendance, recent leave applications, upcoming events, and alerts.",
-      "Security features with  authentication, middleware protections, and encrypted data storage.",
+      "Security features with authentication, middleware protections, and encrypted data storage.",
       "Option to generate reports like leave summary, department-wise employee count, resignation trends, etc.",
       "Fully integrated with email notifications for important actions like leave approval/rejection and resignation status.",
       "Expandable system architecture allowing future modules like payroll, promotion history, ACR/annual review, etc."
     ],
-      "frontend_technology": "Angular,Bootstrap, HTML ",
-      "backend_technology": "Laravel ,Postgres Sql",
-      "other_technology": "REST API ,JWT ,Docker",
-      "number_of_clients": "10lakh",
-      "deployment": {
-        "environment": "Linux Server",
-        "tools": ["Apache", "CI/CD", "Git"]
-      }
-    },
-
-    {
-      "id": 2,
-      "name": "E-commerce CMS Portal",
-      "description": "A customizable content management system for managing products, orders, and payments.",
-      "images": [
-        "images/cms1.png",
-        "images/cms2.png"
-      ],
-      "frontend_technology": ["React", "Tailwind CSS"],
-      "backend_technology": ["Node.js", "MongoDB"],
-      "other_technology": ["Stripe Integration", "Firebase"],
-      "number_of_clients": 3,
-      "deployment": {
-        "environment": "AWS",
-        "tools": ["Nginx", "Docker", "PM2"]
-      }
+    "frontend_technology": "Angular, Bootstrap, HTML",
+    "backend_technology": "Laravel, Postgres SQL",
+    "other_technology": "REST API, JWT, Docker",
+    "number_of_clients": "10 lakh",
+    "deployment": {
+      "environment": "Linux Server",
+      "tools": ["Apache", "CI/CD", "Git"]
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "iFMIS Telangana eKuber",
+    "short_description": "An integrated financial management platform developed for the Telangana Government to manage salary bills, scheme payments, and integrate with RBI for fund transfers.",
+    "images": ["ifmis.png"],
+    "client": "Telangana Govt",
+    "description": [
+      "Integrated payment gateway with RBI for secure and real-time fund transfers.",
+      "Managed salary bill processing for government employees.",
+      "Handled scheme payments and other bill payments across departments.",
+      "FTP-based data exchange with government systems for bulk payment data uploads and acknowledgments.",
+      "Automated workflows for payment approvals, validation, and audit logging.",
+      "Reconciliation of bank transactions and real-time status updates.",
+      "Secure role-based access and data protection measures."
+    ],
+    "frontend_technology": "AngularJS, Bootstrap, HTML",
+    "backend_technology": "Laravel, Postgres SQL",
+    "other_technology": "REST API, JWT, FTP, Docker",
+    "number_of_clients": "Multiple Govt Departments",
+    "deployment": {
+      "environment": "Linux Server",
+      "tools": ["Apache", "CI/CD", "Git"]
+    }
+  },
+  {
+  "id": 3,
+  "name": "Booth Level Survey - Pre & Live Election Monitoring System",
+  "short_description": "A survey and monitoring system developed for GHMC officers to ensure booth readiness and provide real-time updates during elections.",
+  "images": ["bls.png"],
+  "client": "GHMC (Greater Hyderabad Municipal Corporation)",
+  "description": [
+    "Pre-election survey conducted by GHMC officers across 5000+ polling booths.",
+    "Three levels of officers monitored booth readiness and compliance.",
+    "Surveyed critical facilities such as booth boundaries, availability of Wi-Fi, restrooms, electricity, and security arrangements.",
+    "Real-time data collection and reporting system during elections to track voter queues and turnout.",
+    "Live updates on how many people are in queue and how many have voted.",
+    "Helped ensure all facilities were available and voting proceeded smoothly without disruptions.",
+    "Role-based access for different levels of officers and supervisors for data submission and monitoring.",
+    "Dashboard with live status reports for election commissioners and administrators."
+  ],
+  "frontend_technology": "Angular, Bootstrap, HTML",
+  "backend_technology": "Laravel, Postgres SQL",
+  "other_technology": "REST API, JWT, Mobile App (Android), Live Sync",
+  "number_of_clients": "5000+ Booths Monitored",
+  "deployment": {
+    "environment": "Linux Server",
+    "tools": ["Apache", "Git", "CI/CD"]
+  }
+},
+{
+  "id": 4,
+  "name": "CADER Strength - Outsourced and Contract Employee Management",
+  "short_description": "A system for managing salary, records, and documents of outsourced and contract employees in government sectors.",
+  "images": ["ifmis.png"],
+  "client": "Telangana Government",
+  "description": [
+    "Developed two modules for managing employees not directly recruited by the government but through outsourcing agencies.",
+    "Salary management system for outsourced employees including attendance, salary structure, and disbursement records.",
+    "Record keeping and document management functionality, allowing upload and editing of employee-related files.",
+    "Grant-in-aid and Contract Employee module for those working under government schemes or contractual basis.",
+    "HR dashboard for tracking designation-wise data, salary status, contract duration, and history.",
+    "Management of permitted and non-permitted data for audit and compliance.",
+    "Role-based access for HR, Admin, and Auditors to monitor and manage data efficiently."
+  ],
+  "frontend_technology": "Angular, Bootstrap, HTML",
+  "backend_technology": "Laravel, Postgres SQL",
+  "other_technology": "REST API, JWT, Docker",
+  "number_of_clients": "All Outsourced & Contract Employees under Telangana Govt",
+  "deployment": {
+    "environment": "Linux Server",
+    "tools": ["Apache", "CI/CD", "Git"]
+  }
+},
+{
+  "id": 5,
+  "name": "Postal Ballot e-Voting System",
+  "short_description": "An app-based solution for senior citizens, disabled individuals, and government officers on duty to vote via postal ballot.",
+  "images": ["postal-ballot.png"],
+  "client": "Telangana Election Commission",
+  "description": [
+    "Developed an application allowing eligible voters such as senior citizens, persons with disabilities, and government officials on duty to cast their vote via postal ballot.",
+    "Users can download the required forms, fill and submit them, and cast their vote securely by post.",
+    "The system ensures real-time tracking of postal ballots to confirm receipt and avoid duplication.",
+    "Built with a focus on secure voting practices, monitoring tools, and a smooth user experience.",
+    "Included backend workflows for election officers to verify, validate, and manage incoming postal ballots.",
+    "Improved electoral inclusivity and reduced logistical challenges for remote voters."
+  ],
+  "frontend_technology": "Angular, Bootstrap, HTML",
+  "backend_technology": "Laravel, PostgreSQL",
+  "other_technology": "REST API, JWT, Docker",
+  "number_of_clients": "Eligible postal voters across Telangana",
+  "deployment": {
+    "environment": "Linux Server",
+    "tools": ["Apache", "CI/CD", "Git"]
+  }
+},
+{
+  "id": 6,
+  "name": "Clear Build - ML-Based Urban Mapping System",
+  "short_description": "A machine learning-powered project that uses satellite imagery to detect and visualize building boundaries for city planning.",
+  "images": ["clear-build.png"],
+  "client": "Urban Development Department",
+  "description": [
+    "Leveraged satellite imagery and machine learning models to detect building boundaries on a pixel-to-pixel basis.",
+    "Processed boundaries are served via GeoServer and integrated into urban planning platforms.",
+    "Supports accurate, large-scale mapping essential for smart city planning and infrastructure development.",
+    "Automated boundary detection improves efficiency and reduces manual survey overhead.",
+    "The data is used by government officials for zoning, construction approvals, and land use regulation.",
+    "Highly scalable and customizable to various urban and rural regions."
+  ],
+  "frontend_technology": "Angular, Leaflet.js, Bootstrap",
+  "backend_technology": "Python, Laravel, PostgreSQL",
+  "other_technology": "GeoServer, REST API, Machine Learning (U-Net++), Docker",
+  "number_of_clients": "Urban development teams and planners",
+  "deployment": {
+    "environment": "Linux Server",
+    "tools": ["Apache", "CI/CD", "Git"]
+  }
+}
+
+
+
+
+]
